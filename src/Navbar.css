@@ -1,0 +1,36 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+ul li a {
+  color: inherit;
+  border-radius: 8px;
+  padding: .25em;
+  font-size: 1.5rem;
+}
+
+.movedMargins {
+  margin-right: 1em;
+}
+
+ul li a:hover {
+  color: #ADC4CE;
+  background-color: #EEE0C9;
+}
+
+ul li a:active{
+  background-color: #F1F0E8;
+}
