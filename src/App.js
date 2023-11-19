@@ -2,27 +2,27 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import personalPhoto from "./assets/MyPhoto.jpg";
-import Navbar from "./Navbar.js";
+import Navbar from "./components/Navbar.js";
 //I might consider creating a separate routing file, but this should be fine
-import AboutMe from "./AboutMe";
-import Projects from "./Projects";
-import Resume from "./Resume";
+import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 const App = () => {
   return (
-    <div className="App">
-      <img src={personalPhoto} className="myPhoto" alt="" />
-      <div className="TextnNav">
-        <p className="text">Raphael Kusuma</p>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/AboutMe" component={AboutMe} />
-            <Route path="/Projects" component={Projects} />
-            <Route path="/Resume" component={Resume} />
-          </Routes>
-        </Router>
+    <div classname="pageContainer">
+      <div className="App">
+        <img src={personalPhoto} className="myPhoto" alt="" />
+        <div className="TextnNav">
+          <p className="text">Raphael Kusuma</p>
+          <Navbar/>
+        </div>
       </div>
+      <Routes>
+        <Route path="/AboutMe" element={< AboutMe />} />
+        <Route path="/Projects" element={< Projects />} />
+        <Route path="/Resume" element={< Resume />} />
+      </Routes>
     </div>
   );
 };
