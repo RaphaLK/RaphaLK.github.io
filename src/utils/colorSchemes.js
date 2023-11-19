@@ -1,11 +1,12 @@
 const Colors = {
-    //I'm making my website using Pastels, I'll store the ones I wanna use here.
-    Blue: "#96B6C5",
-    BabyBlue: "#ADC4CE",
-    Beige: "#EEE0C9",
-    LighterBeige: "#F1F0E8"
-    
-    //I'm not good with color names, so let me know if these aren't actually accurate :)
+    //So, I made this file since I though I would be styling within each .js file.
+    //This is now where I store colors.
+    LeafGreen: "#5CDB95",
+    LeafyishGreen: "#8EE4AF",
+    offWhite: "#EDF5E1",
+    DarkishGreen: "#379683",
+    Darks: "#05386B",
+    LessDarkish: "#0966c3"
 }
 
 export default Colors;

@@ -1,5 +1,23 @@
 .App {
-  text-align: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #379683;
+  width: 50%;
+  border-radius: 50px;
+  margin: auto;
+  border: 10px solid #8EE4AF;
+}
+
+body {
+  background-color: #5CDB95;
+  background-image: URL();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 90vh;
 }
 
 .App-logo {
@@ -13,21 +31,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +38,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.myPhoto {
+  width: 25%;
+  height: 25%;
+  border-radius: 10%;
+  border: 5px dashed  #05386B ;
+  align-self: center;
+}
+
+.TextnNav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-bottom: 10%;
+}
+
+.TextnNav p{
+  font-size: 3rem;
+  padding: 0;
+  margin-bottom: .2em;
+  font-weight: bold;
+  color: #EDF5E1;
 }
