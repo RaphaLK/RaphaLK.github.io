@@ -17,7 +17,6 @@
 
 body {
   background-color: #5CDB95;
-  background-image: URL();
   display: flex;
   flex-direction: column;
   align-items: center;

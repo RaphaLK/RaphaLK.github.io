@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import personalPhoto from "./assets/MyPhoto.jpg";
 import Navbar from "./components/Navbar.js";
-//I might consider creating a separate routing file, but this should be fine
+
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
