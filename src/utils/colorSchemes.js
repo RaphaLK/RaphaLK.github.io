@@ -1,6 +1,6 @@
 const Colors = {
     //So, I made this file since I though I would be styling within each .js file.
-    //This is now where I store colors.
+    //This is now where I store colors. --Old file, I realized I can store this in tailwind.config.js 11/19/2023
     LeafGreen: "#5CDB95",
     LeafyishGreen: "#8EE4AF",
     offWhite: "#EDF5E1",

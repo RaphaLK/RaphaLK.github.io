@@ -10,7 +10,8 @@
   background-color: #379683;
   width: 50%;
   border-radius: 50px;
-  margin: auto;
+  margin-top: 3%;
+  margin-inline: auto;
   border: 10px solid #8EE4AF;
 }
 
@@ -49,13 +50,14 @@ body {
   border-radius: 10%;
   border: 5px dashed  #05386B ;
   align-self: center;
+  margin-block: 3%;
 }
 
 .TextnNav {
   display: flex;
   flex-direction: column;
   margin-left: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .TextnNav p{

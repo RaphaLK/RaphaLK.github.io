@@ -1,0 +1,14 @@
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    border: 10px solid #8EE4AF;
+
+    @apply p-4 mt-6 bg-DarkishGreen rounded-lg shadow-lg;
+}
