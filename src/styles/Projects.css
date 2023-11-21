@@ -25,3 +25,31 @@
 
   @apply p-4 mt-6 bg-DarkishGreen rounded-lg shadow-lg;
 }
+
+.ReactNative {
+  @apply bg-LessDarkish p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.ReactRedux {
+  @apply bg-Purple p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.Firebase {
+  @apply bg-Red p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.Expo {
+  @apply bg-Black p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.Figma {
+  @apply bg-LighterRed p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.AWS {
+  @apply bg-DeeperOrange p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.Flutter {
+  @apply bg-Orange p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}

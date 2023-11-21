@@ -41,6 +41,12 @@ const Projects = () => {
           the environment. I planned and implemented the UI, in addition to
           implementing features such as a Flashcards system.
         </p>
+        <div className="flex flex-row flex-wrap justify-center">
+          <button class="ReactNative">React Native</button>
+          <button class="Figma">Figma</button>
+          <button class="Expo">Expo</button>
+          <button class="AWS">AWS</button>
+        </div>
       </div>
       <div className="projectsListContainer">
         <h1 className="font-sans text-4xl font-bold mb-4 text-offWhite">
@@ -68,7 +74,9 @@ const Projects = () => {
           functionality for certain screens and "modernized" the UI.
         </p>
         <div className="flex flex-row flex-wrap justify-center">
-          <button className="bgc-darkish">React Native</button>
+          <button class="ReactNative">React Native</button>
+          <button class="ReactRedux">React Redux</button>
+          <button class="Firebase">Firebase</button>
         </div>
       </div>
       <div className="projectsListContainer">
@@ -94,6 +102,10 @@ const Projects = () => {
           app and implemented a system for storing important user data and a
           system for authentication using Firebase.
         </p>
+        <div className="flex flex-row flex-wrap justify-center">
+          <button class="Flutter">Flutter</button>
+          <button class="Firebase">Firebase</button>
+        </div>
       </div>
     </div>
   );
