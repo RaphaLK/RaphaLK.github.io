@@ -1,14 +1,44 @@
-
 .InfoContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-inline: auto;
-    width: 60%;
-    height: 100%;
-    border-radius: 10px;
-    border: 10px solid #8EE4AF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  width: 60%;
+  height: 100%;
+  border-radius: 10px;
+  border: 10px solid #8ee4af;
 
-    @apply p-4 mt-6 bg-DarkishGreen rounded-lg shadow-lg;
+  @apply p-4 mt-6 bg-DarkishGreen rounded-lg shadow-lg;
+}
+
+.decorativePic1 {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  margin: auto;
+  margin-top: 3%;
+
+  @apply bg-DarkishGreen;
+}
+
+.imageContainer {
+  position: absolute;
+  height: 33%;
+  width: 25%;
+  top: 15%;
+  left: 2%;
+  align-content: center;
+  justify-content: center;
+
+  @apply bg-DarkishGreen border-8 border-LeafyishGreen rounded-md;
+}
+
+.smallImageSnippet1 {
+    max-width: 14ch;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    @apply border-8 border-LeafyishGreen rounded-md font-serif;
 }
