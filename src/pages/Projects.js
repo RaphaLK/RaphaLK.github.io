@@ -68,7 +68,7 @@ const Projects = () => {
           functionality for certain screens and "modernized" the UI.
         </p>
         <div className="flex flex-row flex-wrap justify-center">
-          <button className="bg-cyan-600">React Native</button>
+          <button className="bgc-darkish">React Native</button>
         </div>
       </div>
       <div className="projectsListContainer">
