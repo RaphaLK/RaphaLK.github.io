@@ -1,4 +1,4 @@
-.InfoContainer {
+.aboutMeContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,10 +6,10 @@
   margin-inline: auto;
   width: 60%;
   height: 100%;
-  border-radius: 10px;
-  border: 10px solid #8ee4af;
 
-  @apply p-4 mt-6 bg-DarkishGreen rounded-lg shadow-lg;
+
+
+  @apply p-4 mt-6;
 }
 
 .decorativePic1 {
@@ -20,19 +20,17 @@
   margin: auto;
   margin-top: 3%;
 
-  @apply bg-DarkishGreen;
+  @apply m-2;
 }
 
 .imageContainer {
-  position: absolute;
+  position: relative;
   height: 33%;
   width: 25%;
   top: 15%;
   left: 2%;
   align-content: center;
   justify-content: center;
-
-  @apply bg-DarkishGreen border-8 border-LeafyishGreen rounded-md;
 }
 
 .smallImageSnippet1 {
@@ -40,5 +38,4 @@
     position: absolute;
     top: 90%;
     left: 10%;
-    @apply border-8 border-LeafyishGreen rounded-md font-serif;
 }

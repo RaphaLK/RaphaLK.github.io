@@ -4,12 +4,25 @@ import teamPhoto from "../assets/IMG_6679.JPG";
 
 const AboutMe = () => {
   return (
-    <div>
-      <div className="InfoContainer">
-        <h1 className="font-sans text-4xl font-bold mb-4 text-offWhite">
-          About Me
-        </h1>
-        <p className="font-sans text-2xl text-offWhite">
+    <div className="aboutMeContainer">
+      <h1 className="font-sans text-4xl font-bold mb-4 text-SoftWhite">
+        Raphael Kusuma
+      </h1>
+
+      <div className="imageContainer">
+        <img className="decorativePic1" src={teamPhoto} alt="" />
+        <div className="smallImageSnippet1">
+          <p className="text-offWhite bg-DarkishGreen p-1">
+            me and my RA team :)
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+/*
+        <p className="font-sans text-2xl text-SoftWhite">
           My name is Raphael, I'm a Junior{" "}
           <span class="font-bold">
             Computer Science and Engineering Major with a Minor in Mathematics
@@ -31,17 +44,6 @@ const AboutMe = () => {
             </span>
           </span>
           .
-        </p>
-      </div>
-
-      <div className="imageContainer">
-        <img className="decorativePic1" src={teamPhoto} alt="" />
-        <div className="smallImageSnippet1">
-          <p className="text-offWhite bg-DarkishGreen p-1">me and my RA team :)</p>
-        </div>
-      </div>
-    </div>
-  );
-};
-
+        </p>  
+*/
 export default AboutMe;

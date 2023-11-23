@@ -1,0 +1,25 @@
+*{
+  box-sizing:border-box;
+
+  @apply m-0 p-0;
+}
+
+.buttonContainer {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-row: auto auto;
+  grid-column-gap: 10%;
+  grid-row-gap: 10px;
+}
+
+.buttonContainer button {
+  padding: 5px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 15px;
+  font-family:sans-serif;
+}

@@ -2,67 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #379683;
-  width: 50%;
-  border-radius: 50px;
-  margin-top: 3%;
-  margin-inline: auto;
-  border: 10px solid #8EE4AF;
-}
-
 body {
-  background-color: #5CDB95;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; 
+
+  @apply bg-SoftBlack
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.myPhoto {
-  width: 25%;
-  height: 25%;
-  border-radius: 10%;
-  border: 5px dashed  #05386B ;
-  align-self: center;
-  margin-block: 3%;
-}
-
-.TextnNav {
+.pageContainer {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  margin-left: 2%;
-  margin-bottom: 5%;
+  @apply bg-LessDarkish
 }
 
-.TextnNav p{
-  font-size: 3rem;
-  padding: 0;
-  margin-bottom: .2em;
-  font-weight: bold;
-  color: #EDF5E1;
+aside {
+  position: absolute;
+  @apply w-2/5;
 }
+

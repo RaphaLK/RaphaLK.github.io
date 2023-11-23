@@ -7,36 +7,44 @@ body {
   margin: 0;
 }
 
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
 ul {
-  padding: 0;
-  margin: 0;
   list-style: none;
   display: flex;
-  flex-direction: row;
+  
+  @apply p-4 m-0 flex-col
+}
+
+ul li {
+  @apply m-2
 }
 
 ul li a {
-  color: #EDF5E1;
   border-radius: 8px;
   padding: .25em;
   font-size: 1.5rem;
   font-weight: 100;
   text-decoration: inherit;
-  margin-right: 1em;
-  margin-left: .2em;
+
+  @apply text-SoftWhite m-2;
 }
 
 ul li a:hover {
   color: wheat;
   background-color: #05386B;
-  transition: .3s ease-in-out;
+  transition: ease-in-out 0.2s;
 }
 
-ul li:hover {
-  transition: .3s ease-in-out;
-  transform: scale(1.03);
-}
 
 ul li a:active{
   background-color: #0966c3;
+}
+
+img {
+  align-self: center;
 }
