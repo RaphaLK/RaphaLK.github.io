@@ -1,22 +1,65 @@
 import React from "react";
 import "../styles/AboutMe.css";
 import teamPhoto from "../assets/IMG_6679.JPG";
+import SocialMediaButtons from "react-social-media-buttons";
+import myPhoto from "../assets/MyPhoto.jpg";
 
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer">
-      <h1 className="font-sans text-4xl font-bold mb-4 text-SoftWhite">
+      <h1 className="text-4xl font-semibold mb-4 text-offWhite ">
         Raphael Kusuma
       </h1>
 
+      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed">
+        Hello! I'm Raph, I'm a Junior{" "}
+        <span className="font-semibold">
+          Computer Science and Engineering Major with a Minor in Mathematics{" "}
+        </span>
+        at Santa Clara University. I've worked with Professors at SCU for
+        projects, and I currently work at the University's Library and SCU's own
+        Residence Life Department as an RA.
+      </p>
+
       <div className="imageContainer">
-        <img className="decorativePic1" src={teamPhoto} alt="" />
-        <div className="smallImageSnippet1">
-          <p className="text-offWhite bg-DarkishGreen p-1">
-            me and my RA team :)
-          </p>
-        </div>
+        <img className="decorativePic1" src={myPhoto} alt="" />
+        <ul className="ButtonsList">
+          <li className="hover:bg-Gray active:bg-lighterGray">
+            <SocialMediaButtons
+              links={["https://github.com/RaphaLK"]}
+              buttonStyle={{
+                width: "80px",
+                height: "80px",
+                margin: "0px 0px",
+                backgroundColor: "transparent",
+              }}
+              iconStyle={{ color: "Gray" }}
+              openNewTab={true}
+            />
+          </li>
+          <li className="hover:bg-Gray active:bg-lighterGray">
+            <SocialMediaButtons
+              links={["https://www.linkedin.com/in/raphaelkusuma/"]}
+              buttonStyle={{
+                width: "80px",
+                height: "80px",
+                margin: "0px 0px",
+                backgroundColor: "transparent",
+              }}
+              iconStyle={{ color: "Gray" }}
+              openNewTab={true}
+            />
+          </li>
+        </ul>
       </div>
+      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed">
+        My current interests are in Full-Stack and Mobile App Development, I
+        personally do enjoy Front-End Development :). I'm also looking for an{" "}
+        <span className="font-semibold">
+          Internship for this coming Summer 2024
+        </span>
+        . I enjoy Coffee, Boxing, Lifting, Photography, and Video Games. I'm also learning Tennis!
+      </p>
     </div>
   );
 };

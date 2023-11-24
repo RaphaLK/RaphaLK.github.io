@@ -20,10 +20,10 @@ module.exports = {
       Purple: "#BEADFA",
       Black: '#000',
       DeeperOrange: '#E9B384',
-
-      //New Colo Scheme
       SoftBlack: '#242424',
       SoftWhite: '#fcfcfc',
+      Gray: '#333333',
+      lighterGray: '#666666',
     },
     },
   plugins: [],

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import personalPhoto from "../assets/MyPhoto.jpg";
+import Logo from "../components/Logo"
 
 /*
   I initially planned this to be a full on nav-bar at the top of the screen.
@@ -12,7 +13,7 @@ import personalPhoto from "../assets/MyPhoto.jpg";
 const Navbar = () => {
   return (
     <div class="navContainer">
-      <img src={personalPhoto} className="w-20 h-20 mt-2" alt="" />
+      <Logo/>
       <ul>
         <li>
           <Link to='/AboutMe'>About Me</Link>

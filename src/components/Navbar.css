@@ -11,6 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 25%;
+
+  @apply ml-20 mt-5
 }
 
 ul {
@@ -21,7 +23,7 @@ ul {
 }
 
 ul li {
-  @apply m-2
+  @apply mb-2 mt-2;
 }
 
 ul li a {
@@ -36,15 +38,12 @@ ul li a {
 
 ul li a:hover {
   color: wheat;
-  background-color: #05386B;
   transition: ease-in-out 0.2s;
+
+  @apply bg-Gray;
 }
 
 
 ul li a:active{
   background-color: #0966c3;
-}
-
-img {
-  align-self: center;
 }
