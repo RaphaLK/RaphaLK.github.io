@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AboutMe/static/css/main.3be180c3.css",
-    "main.js": "/AboutMe/static/js/main.78b659cf.js",
-    "static/js/787.ef749885.chunk.js": "/AboutMe/static/js/787.ef749885.chunk.js",
-    "static/media/TeamPhoto.JPG": "/AboutMe/static/media/TeamPhoto.d948492b508a16034fd8.JPG",
-    "static/media/IMG_6679.JPG": "/AboutMe/static/media/IMG_6679.acf9f3c30ee3acec0004.JPG",
-    "static/media/MyPhoto.jpg": "/AboutMe/static/media/MyPhoto.c4207a597cecd1b260a5.jpg",
-    "static/media/Allescan.jpg": "/AboutMe/static/media/Allescan.1bf6310761771e06083b.jpg",
-    "static/media/SCU_Library.jpg": "/AboutMe/static/media/SCU_Library.92d1b138d50313b0e764.jpg",
-    "static/media/LicenseQuest.jpg": "/AboutMe/static/media/LicenseQuest.97f28a8a2372806c6d9a.jpg",
-    "static/media/Bronco.png": "/AboutMe/static/media/Bronco.71d456760c85e7782e97.png",
-    "index.html": "/AboutMe/index.html",
-    "main.3be180c3.css.map": "/AboutMe/static/css/main.3be180c3.css.map",
-    "main.78b659cf.js.map": "/AboutMe/static/js/main.78b659cf.js.map",
-    "787.ef749885.chunk.js.map": "/AboutMe/static/js/787.ef749885.chunk.js.map"
+    "main.css": "/pages/AboutMe/static/css/main.3be180c3.css",
+    "main.js": "/pages/AboutMe/static/js/main.e5662922.js",
+    "static/js/787.ef749885.chunk.js": "/pages/AboutMe/static/js/787.ef749885.chunk.js",
+    "static/media/TeamPhoto.JPG": "/pages/AboutMe/static/media/TeamPhoto.d948492b508a16034fd8.JPG",
+    "static/media/IMG_6679.JPG": "/pages/AboutMe/static/media/IMG_6679.acf9f3c30ee3acec0004.JPG",
+    "static/media/MyPhoto.jpg": "/pages/AboutMe/static/media/MyPhoto.c4207a597cecd1b260a5.jpg",
+    "static/media/Allescan.jpg": "/pages/AboutMe/static/media/Allescan.1bf6310761771e06083b.jpg",
+    "static/media/SCU_Library.jpg": "/pages/AboutMe/static/media/SCU_Library.92d1b138d50313b0e764.jpg",
+    "static/media/LicenseQuest.jpg": "/pages/AboutMe/static/media/LicenseQuest.97f28a8a2372806c6d9a.jpg",
+    "static/media/Bronco.png": "/pages/AboutMe/static/media/Bronco.71d456760c85e7782e97.png",
+    "index.html": "/pages/AboutMe/index.html",
+    "main.3be180c3.css.map": "/pages/AboutMe/static/css/main.3be180c3.css.map",
+    "main.e5662922.js.map": "/pages/AboutMe/static/js/main.e5662922.js.map",
+    "787.ef749885.chunk.js.map": "/pages/AboutMe/static/js/787.ef749885.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3be180c3.css",
-    "static/js/main.78b659cf.js"
+    "static/js/main.e5662922.js"
   ]
 }
