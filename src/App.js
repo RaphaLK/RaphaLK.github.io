@@ -11,7 +11,7 @@ const App = () => {
   const navigate = useNavigate();
   useEffect(() => {
     navigate('/AboutMe');
-  }, [navigate]); // Ensure that this only happens once on pageload
+  }, []); // Ensure that this only happens once on pageload
 
   return (
     <div classname="pageContainer">
