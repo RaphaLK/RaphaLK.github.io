@@ -12,6 +12,7 @@
   @apply p-4 mt-6;
 }
 
+
 .decorativePic1 {
   position: relative;
   height: 40%;
@@ -39,13 +40,13 @@
 }
 
 .ButtonsList li {
-  width: 21%;
-  height: 15%;
+  width: 22%;
+  height: 16%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 5%;
-  padding-top: 2.5%;
+  padding-top: 3%;
 
   @apply rounded-full
 }

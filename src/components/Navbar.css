@@ -10,7 +10,7 @@ body {
 .navContainer {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
 
   @apply ml-20 mt-5
 }

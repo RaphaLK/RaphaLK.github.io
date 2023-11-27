@@ -1,12 +1,18 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React from "react";
+import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar.js";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
 const App = () => {
+  
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate('/AboutMe');
+  }, [navigate]); // Ensure that this only happens once on pageload
+
   return (
     <div classname="pageContainer">
       <aside>
@@ -20,13 +26,5 @@ const App = () => {
     </div>
   );
 };
-/*
-<div className="App">
-<img src={personalPhoto} className="myPhoto" alt="" />
-<div className="TextnNav">
-  <p className="text">Raphael Kusuma</p>
-  <Navbar/>
-</div>
-</div>
-*/
+
 export default App;
