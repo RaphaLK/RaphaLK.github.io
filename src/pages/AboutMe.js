@@ -7,11 +7,11 @@ import myPhoto from "../assets/MyPhoto.jpg";
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer">
-      <h1 className="text-4xl font-semibold mb-4 text-offWhite ">
+      <h1 className="text-4xl font-semibold mb-4 text-offWhite z-10">
         Raphael Kusuma
       </h1>
 
-      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed">
+      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed z-10">
         Hello! I'm Raph, I'm a Junior{" "}
         <span className="font-semibold">
           Computer Science and Engineering Major with a Minor in Mathematics{" "}
@@ -52,7 +52,7 @@ const AboutMe = () => {
           </li>
         </ul>
       </div>
-      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed">
+      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed z-10">
         My current interests are in Full-Stack and Mobile App Development, I
         personally do enjoy Front-End Development :). I'm also looking for an{" "}
         <span className="font-semibold">

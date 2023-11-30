@@ -23,6 +23,13 @@ body {
 
 aside {
   position: absolute;
-  @apply w-2/5;
+  height: 100%;
+  border-bottom-right-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+  @apply bg-Gray w-1/5;
 }
 
+Particles {
+  position: fixed;
+  z-index: -1;
+}

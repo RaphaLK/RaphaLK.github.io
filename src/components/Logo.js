@@ -2,8 +2,8 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div className='items-center self-center'>
-      <p className='text-SoftWhite font-extrabold italic text-7xl mr-7'>RK</p>
+    <div className='flex w-3/6'>
+      <p className='text-SoftWhite font-extrabold italic text-7xl ml-7'>RK</p>
     </div>
   );
 };

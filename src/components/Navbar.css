@@ -1,6 +1,7 @@
 
 * {
   box-sizing: border-box;
+  z-index: 1;
 }
 
 body {
@@ -10,9 +11,11 @@ body {
 .navContainer {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
 
-  @apply ml-20 mt-5
+  @apply ml-20 mt-5;
 }
 
 ul {
@@ -44,6 +47,3 @@ ul li a:hover {
 }
 
 
-ul li a:active{
-  background-color: #0966c3;
-}
