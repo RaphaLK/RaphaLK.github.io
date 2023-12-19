@@ -12,6 +12,8 @@ import { loadFull } from "tsparticles";
 const App = () => {
   
   const navigate = useNavigate();
+
+  // This hook is just here so the clicking a link to my website directly redirects to /AboutMe
   useEffect(() => {
     navigate('/AboutMe');
   }, []); // Ensure that this only happens once; Empty dependency

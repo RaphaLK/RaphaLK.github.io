@@ -23,6 +23,7 @@ body {
 
 aside {
   position: absolute;
+  left: 0;
   height: 100%;
   border-bottom-right-radius: 50% 20%;
   border-top-right-radius: 50% 20%;
