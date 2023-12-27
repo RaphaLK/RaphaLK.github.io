@@ -1,14 +1,7 @@
 .ExperienceItemContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-inline: auto;
-  width: 60%;
-  height: 100%;
-  border-radius: 10px;
-  border: 10px solid #8EE4AF;
-
-  @apply p-4 mt-6 bg-DarkishGreen rounded-lg shadow-lg;
+  width: 30%;
+  border-radius: 30px;
+  background: #242424;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px #333333;
 }
-

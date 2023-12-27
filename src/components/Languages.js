@@ -11,6 +11,7 @@ const Languages = () => {
         <button>Java</button>
         <button>HTML/CSS</button>
         <button>JavaScript</button>
+        <button>TypeScript</button>
         <button>PHP</button>
         <button>Assembly</button>
         <button>Verilog</button>
