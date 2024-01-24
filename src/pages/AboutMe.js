@@ -54,9 +54,9 @@ const AboutMe = () => {
       </div>
       <p className="text-lg text-offWhite max-w-[80%] leading-relaxed z-10">
         My current interests are in Full-Stack and Mobile App Development, I
-        personally do enjoy Front-End Development :). I'm also looking for an{" "}
+        typically use React/React Native for Web and Mobile applications :). I'm currently an incoming
         <span className="font-semibold">
-          Internship for this coming Summer 2024
+          Summer Intern for Anritsu
         </span>
         . I enjoy Coffee, Boxing, Lifting, Photography, and Video Games. I'm also learning Tennis!
       </p>
