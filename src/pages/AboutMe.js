@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/AboutMe.css";
-import teamPhoto from "../assets/IMG_6679.JPG";
 import SocialMediaButtons from "react-social-media-buttons";
 import myPhoto from "../assets/MyPhoto.jpg";
 
