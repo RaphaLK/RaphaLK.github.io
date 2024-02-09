@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import personalPhoto from "../assets/MyPhoto.jpg";
 import Logo from "../components/Logo"
 
 /*
@@ -12,7 +11,7 @@ import Logo from "../components/Logo"
 */
 const Navbar = () => {
   return (
-    <div class="navContainer">
+    <nav class="navContainer">
       <Logo/>
       <ul>
         <li>
@@ -25,7 +24,7 @@ const Navbar = () => {
           <Link to='/Resume'>Resume</Link>
         </li>
       </ul>
-    </div>
+    </nav>
   )
 }
 

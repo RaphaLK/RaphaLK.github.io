@@ -1,40 +1,44 @@
-import "./App.css";
-import { backgroundOptions } from "./components/BackgroundParticles.js"
-import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
-import React, { useEffect, useCallback } from "react";
-import Navbar from "./components/Navbar.js";
-import AboutMe from "./pages/AboutMe";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
-import Particles from "react-particles";
-import { loadFull } from "tsparticles";
+  import "./App.css";
+  import { backgroundOptions } from "./components/BackgroundParticles.js";
+  import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+    useNavigate,
+  } from "react-router-dom";
+  import React, { useEffect, useCallback } from "react";
+  import Navbar from "./components/Navbar.js";
+  import AboutMe from "./pages/AboutMe";
+  import Projects from "./pages/Projects";
+  import Resume from "./pages/Resume";
+  import Particles from "react-particles";
+  import { loadFull } from "tsparticles";
 
-const App = () => {
-  
-  const navigate = useNavigate();
+  const App = () => {
+    const navigate = useNavigate();
 
-  // This hook is just here so the clicking a link to my website directly redirects to /AboutMe
-  useEffect(() => {
-    navigate('/AboutMe');
-  }, []); // Ensure that this only happens once; Empty dependency
+    useEffect (() => {
+      navigate('/AboutMe');
+    }, [])
 
-  const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine);
-  }, []);
+    const particlesInit = useCallback(async (engine) => {
+      await loadFull(engine);
+    }, []);
 
-  return (
-    <div classname="pageContainer">
-      <aside>
-        <Navbar/>
-      </aside>
-      <Particles options={backgroundOptions} init={particlesInit} />
-      <Routes>
-        <Route path="/AboutMe" element={< AboutMe />} />
-        <Route path="/Projects" element={< Projects />} />
-        <Route path="/Resume" element={< Resume />} />
-      </Routes>
-    </div>
-  );
-};
+    return (
+      <div>
+        <div classname="pageContainer">
+            <Navbar />
+          <Particles options={backgroundOptions} init={particlesInit} />
+        </div>
 
-export default App;
+        <Routes>
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Resume" element={<Resume />} />
+        </Routes>
+      </div>
+    );
+  };
+
+  export default App;
