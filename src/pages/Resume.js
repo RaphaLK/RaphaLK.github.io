@@ -5,6 +5,8 @@ import Library from "../assets/SCU_Library.jpg";
 import PTHub from "../assets/Bronco.png";
 import ExperienceCard from "../components/ExperienceCard";
 import Anritsu from "../assets/Anritsu-community-logo-1.png";
+import Graham from "../assets/graham.jpg";
+import Villas from "../assets/University_Villas.jpg";
 
 const Resume = () => {
   return (
@@ -18,34 +20,31 @@ const Resume = () => {
           image={Anritsu}
           title="Software Engineer Intern"
           date="June 2024 - September 2024"
-          description="Software Engineering Intern for Anritsu"
+          description="Intern for Anritsu for Summer 2024 in Morgan Hill, CA"
         />
         <ExperienceCard
-          image={teamPhoto1}
+          image={Villas}
           title="Neighborhood Representative"
           date="August 2023 - Present"
-          description="Student leader position at the University Villas. Serving 3rd and 4th year residents by promoting and hosting 12-15 events every academic year
-          aimed at professional and career development."
+          description="Student leader position at the University Villas. Serving 300-400 Juniors and Seniors."
         />
         <ExperienceCard
-          image={Library}
+          image={Graham}
           title="Community Facilitator"
           date="April 2023 - September 2023"
-          description="Served as a Resident Assistant for 300-400 freshman and sophomore residents within Graham Hall. Hosted events promoting social interaction and
-          community building. In addition to serving on-call for disciplinary and logistical measures."
+          description="Resident assistant for Graham Hall at Santa Clara University."
         />
         <ExperienceCard
           image={PTHub}
           title="Mobile Application Developer"
           date="May 2023 - Present"
-          description="Collaborated alongside Dr. Navid Shaghaghi and fellow peers to develop a mobile app to improve the usage of public transport
-          within the SCU student body."
+          description="Collaborated alongside Dr. Navid Shaghaghi and fellow peers to develop a mobile app."
         />
         <ExperienceCard
           image={Library}
           title="University Library Student Assistant"
           date="April 2022 - Present"
-          description="yeah lmao"
+          description="Customer Service and Maintenance of Library Services"
         />
       </div>
     </div>
