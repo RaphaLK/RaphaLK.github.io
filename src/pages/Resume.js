@@ -7,7 +7,8 @@ import ExperienceCard from "../components/ExperienceCard";
 import Anritsu from "../assets/Anritsu-community-logo-1.png";
 import Graham from "../assets/graham.jpg";
 import Villas from "../assets/University_Villas.jpg";
-import SWE from "../assets/cropped-swe_logo_santa_clara_u_purple-1.jpg"
+import SWE from "../assets/cropped-swe_logo_santa_clara_u_purple-1.jpg";
+import Possible from "../assets/possible-360x101.png";
 
 const Resume = () => {
   return (
@@ -22,6 +23,12 @@ const Resume = () => {
           title="Software Engineer Intern"
           date="June 2024 - September 2024"
           description="Intern for Anritsu for Summer 2024 in Morgan Hill, CA"
+        />
+        <ExperienceCard
+          image={Possible}
+          title="Spring Cohort Fellow"
+          date="April 2024 - July 2024"
+          description="Speaking with industry professionals, gaining insight into the current state of the industry."
         />
         <ExperienceCard
           image={SWE}
