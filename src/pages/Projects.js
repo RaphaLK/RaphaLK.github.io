@@ -3,6 +3,7 @@ import "../styles/Projects.css";
 import Allescan from "../assets/Allescan.jpg";
 import LicenseQuest from "../assets/LicenseQuest.jpg";
 import Bronco from "../assets/Bronco.png";
+import Twitter from "../assets/unnamed.png"
 
 const Projects = () => {
   return (
@@ -117,6 +118,32 @@ const Projects = () => {
             <button class="Flutter">Flutter</button>
             <button class="Firebase">Firebase</button>
           </div>
+          <div className="projectsListContainer">
+          <h1 className="font-sans text-4xl font-bold mb-4 text-offWhite">
+            Automated Tweets
+          </h1>
+          <a href="https://github.com/RaphaLK/AutomatedTweets" target="_blank">
+            <div class="card">
+              <img
+                src={Twitter}
+                alt=""
+                className="w-1/2 bg-offWhite rounded-2xl"
+              />
+              <div class="card__content">
+                <p class="card__title">Personal Project</p>
+                <p class="card__description">
+                    A script to automate twitter posts utilizing both the GPT API and the Twitter API V2 in order to post automatically
+                    generated tweets.
+                </p>
+              </div>
+            </div>
+          </a>
+          <div className="flex flex-column flex-wrap justify-center">
+            <button class="JavaScript">JavaScript</button>
+          </div>
+        </div>
+        
+
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 
 .viewContainer {
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,4 +140,8 @@
 
 .Flutter {
   @apply bg-Orange p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
+}
+
+.JavaScript {
+  @apply bg-LighterRed p-2 rounded-xl text-offWhite m-2 shadow-xl border-4;
 }

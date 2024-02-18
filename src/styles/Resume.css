@@ -11,6 +11,7 @@
 }
 
 .ResumeContainer {
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;  align-items: center;

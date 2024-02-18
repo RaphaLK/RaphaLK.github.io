@@ -7,6 +7,7 @@ import ExperienceCard from "../components/ExperienceCard";
 import Anritsu from "../assets/Anritsu-community-logo-1.png";
 import Graham from "../assets/graham.jpg";
 import Villas from "../assets/University_Villas.jpg";
+import SWE from "../assets/cropped-swe_logo_santa_clara_u_purple-1.jpg"
 
 const Resume = () => {
   return (
@@ -14,13 +15,19 @@ const Resume = () => {
       <h1 className="font-sans text-4xl font-bold mb-4 text-offWhite">
         My Experience
       </h1>
-      <p className="font-sans text-2xl text-offWhite">Here's all my Jobs :)</p>
+      <p className="font-sans text-2xl text-offWhite">Here's all my professional, volunteer, and leadership experience!</p>
       <div className="JobsContainer">
         <ExperienceCard
           image={Anritsu}
           title="Software Engineer Intern"
           date="June 2024 - September 2024"
           description="Intern for Anritsu for Summer 2024 in Morgan Hill, CA"
+        />
+        <ExperienceCard
+          image={SWE}
+          title="Volunteer TA"
+          date="February 2024 - April 2024"
+          description="Taught middle-school girls Python fundamentals, promoting an initiative to involve Women in STEM."
         />
         <ExperienceCard
           image={Villas}
@@ -46,6 +53,7 @@ const Resume = () => {
           date="April 2022 - Present"
           description="Customer Service and Maintenance of Library Services"
         />
+
       </div>
     </div>
   );
