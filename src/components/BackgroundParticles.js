@@ -3,7 +3,7 @@ import React from 'react';
 export const backgroundOptions = {
   particles: {
     number: {
-      value: 3,
+      value: 2,
       density: {
         enable: true,
         area: 600
@@ -56,7 +56,7 @@ export const backgroundOptions = {
         }
       },
       push: {
-        quantity: 2
+        quantity: 1
       }
     }
   }

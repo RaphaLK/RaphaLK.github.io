@@ -6,18 +6,16 @@ import myPhoto from "../assets/MyPhoto.jpg";
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer">
-      <h1 className="text-4xl font-semibold mb-4 text-offWhite z-10">
+      <h1 className="text-3xl font-semibold mb-4 text-offWhite z-10">
         Raphael Kusuma
       </h1>
 
-      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed z-10">
-        Hello! I'm Raph, I'm a Junior{" "}
+      <p className="text-2xl text-offWhite max-w-[80%] leading-relaxed z-10">
+        Hello! I'm a Junior{" "}
         <span className="font-semibold">
           Computer Science and Engineering Major with a Minor in Mathematics{" "}
         </span>
-        at Santa Clara University. I've worked with Professors at SCU for
-        projects, and I currently work at the University's Library and SCU's own
-        Residence Life Department as an RA.
+        at Santa Clara University. 
       </p>
 
       <div className="imageContainer">
@@ -51,15 +49,10 @@ const AboutMe = () => {
           </li>
         </ul>
       </div>
-      <p className="text-lg text-offWhite max-w-[80%] leading-relaxed z-10">
-        My current interests are in Full-Stack and Mobile App Development, I
-        typically use React/React Native for Web and Mobile applications :). I'm currently an incoming
-        <span> </span>
-        <span className="font-semibold">
-          Summer Intern for Anritsu
-        </span>
-        . I enjoy Coffee, Boxing, Lifting, Photography, and Video Games. I'm also learning Tennis!
-      </p>
+
+      <h1 className="text-4xl font-semibold mt-5 text-offWhite z-10">
+        About
+      </h1>
     </div>
   );
 };
