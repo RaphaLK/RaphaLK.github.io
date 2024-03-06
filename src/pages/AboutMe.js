@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/AboutMe.css";
 import SocialMediaButtons from "react-social-media-buttons";
 import myPhoto from "../assets/MyPhoto.jpg";
+import About from "../components/About";
 
 const AboutMe = () => {
   return (
@@ -53,6 +54,8 @@ const AboutMe = () => {
       <h1 className="text-4xl font-semibold mt-5 text-offWhite z-10">
         About
       </h1>
+      <About/>
+
     </div>
   );
 };
