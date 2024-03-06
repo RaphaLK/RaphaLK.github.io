@@ -15,6 +15,7 @@ const Projects = () => {
       <h1 className="font-sans text-4xl font-bold mb-4 text-offWhite">
         My Projects
       </h1>
+      <p className="font-sans text-2xl text-offWhite">Here's all my Projects!</p>
       <div className="viewContainer">
         <ProjectCard
           image={LicenseQuest}

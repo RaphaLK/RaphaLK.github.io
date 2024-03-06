@@ -6,7 +6,7 @@ export const backgroundOptions = {
       value: 2,
       density: {
         enable: true,
-        area: 600
+        area: 1000
       }
     },
     color: {
