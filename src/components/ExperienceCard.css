@@ -10,9 +10,9 @@
 }
 
 .experience-image {
-  width: 40%;
+  width: 60%;
   object-fit: cover;
-  max-height: 80%;
+  max-height: 50%;
   border-radius: 5px;
   @apply ml-5 bg-SoftWhite
 }
