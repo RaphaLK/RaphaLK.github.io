@@ -6,6 +6,7 @@
     Routes,
     useNavigate,
   } from "react-router-dom";
+  import HomePage from "./pages/HomePage.js";
   import React, { useEffect, useCallback } from "react";
   import Navbar from "./components/Navbar.js";
   import AboutMe from "./pages/AboutMe";
@@ -17,26 +18,10 @@
   const App = () => {
     const navigate = useNavigate();
 
-    useEffect (() => {
-      navigate('/AboutMe');
-    }, [])
-
-    const particlesInit = useCallback(async (engine) => {
-      await loadFull(engine);
-    }, []);
 
     return (
       <div>
-        <div classname="pageContainer">
-            <Navbar />
-          <Particles options={backgroundOptions} init={particlesInit} />
-        </div>
-
-        <Routes>
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Resume" element={<Resume />} />
-        </Routes>
+        <HomePage/>
       </div>
     );
   };

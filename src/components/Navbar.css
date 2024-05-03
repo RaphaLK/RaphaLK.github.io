@@ -1,27 +1,18 @@
-
-* {
-  box-sizing: border-box;
-  z-index: 1;
-}
-
-body {
-  margin: 0;
-}
-
 .navContainer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-between;
-  align-items: flex-start;
-  position: sticky;
+  justify-content: center;
+  align-content: center;
 
-  @apply mb-1 bg-Gray;
+
+  @apply mb-1;
 }
 
 ul {
   list-style: none;
   display: flex;
+  align-items: center;
   
   @apply p-4  flex-row
 }
@@ -30,21 +21,20 @@ ul li {
   @apply mb-2 mt-2;
 }
 
-ul li a {
+ul li p {
   border-radius: 8px;
   width: 100%;
   padding: .25em;
-  font-size: 1.5rem;
-  font-weight: 100;
+  font-size: 1.5rem;  
   text-decoration: inherit;
+  align-items: center;
 
   @apply text-SoftWhite m-2;
 }
 
-ul li a:hover {
+ul li p:hover {
   color: wheat;
-  transition: ease-in-out 0.2s;
-
-  @apply bg-Gray;
+  transition: ease-in-out 0.4s;
+  
 }
 

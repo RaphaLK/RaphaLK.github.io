@@ -1,0 +1,36 @@
+h1 {
+  font-size: 48px;
+  margin-top: 1%;
+  margin-left: 2%;
+
+  @apply text-SoftWhite
+}
+
+span {
+  font-size: 48px;
+  margin-top: 1%;
+  margin-left: 2%;
+
+  @apply text-SoftWhite
+}
+
+.Typewriter__cursor {
+  font-size: 50px;
+  line-height: normal; 
+  @apply text-SoftWhite 
+}
+
+.bottom_text {
+  padding-left: 10%;
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  width: 100%;
+}
+
+div .homepage_container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}

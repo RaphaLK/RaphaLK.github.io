@@ -24,6 +24,7 @@ module.exports = {
       SoftWhite: '#fcfcfc',
       Gray: '#333333',
       lighterGray: '#666666',
+      greenish: '#3C4137',
     },
     },
   plugins: [],
