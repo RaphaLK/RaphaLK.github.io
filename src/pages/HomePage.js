@@ -16,6 +16,7 @@ export const HomePage = () => {
           options={{
             loop: true,
             cursor: '_',
+            delay: 50,
           }}
           onInit={(typewriter) => {
             typewriter.typeString('<span> and this is my website.</span>')

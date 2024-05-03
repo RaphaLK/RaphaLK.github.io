@@ -8,9 +8,11 @@ const Navbar = () => {
         <li>
           <p>About Me</p>
         </li>
+          <p> -- </p>
         <li>
           <p>Projects</p>
         </li>
+          <p> -- </p>
         <li>
           <p>Resume</p>
         </li>

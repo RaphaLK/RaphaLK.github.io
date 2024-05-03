@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  opacity: 0;
   justify-content: center;
   align-content: center;
+  animation: fade-in 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 
-
-  @apply mb-1;
+  @apply mt-10;
 }
 
 ul {
@@ -21,11 +24,14 @@ ul li {
   @apply mb-2 mt-2;
 }
 
+ul p {
+  font-size: 1.75rem;  
+  @apply text-SoftWhite;
+}
+
 ul li p {
-  border-radius: 8px;
-  width: 100%;
   padding: .25em;
-  font-size: 1.5rem;  
+  font-size: 1.75rem;  
   text-decoration: inherit;
   align-items: center;
 
@@ -36,5 +42,14 @@ ul li p:hover {
   color: wheat;
   transition: ease-in-out 0.4s;
   
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
 }
 
