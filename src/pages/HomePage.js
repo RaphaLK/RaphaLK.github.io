@@ -2,6 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect';
 import '../styles/HomePage.css'
 import Navbar from '../components/Navbar';
+import Socials from '../components/Socials'
 
 export const HomePage = () => {
   return (
@@ -20,15 +21,18 @@ export const HomePage = () => {
           }}
           onInit={(typewriter) => {
             typewriter.typeString('<span> and this is my website.</span>')
-              .pauseFor(2000)
+              .pauseFor(5000)
               .deleteAll()
+              .pauseFor(5000)
               .start();
-
           }}/>
       </div>
-
+      
       <div className='navigation_bar'>
           <Navbar/>
+      </div>
+      <div className='socials_bar'>
+        <Socials></Socials>
       </div>
 
     </div>

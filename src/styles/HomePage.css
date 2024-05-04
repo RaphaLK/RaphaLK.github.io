@@ -34,3 +34,9 @@ div .homepage_container{
   height: 100vh;
   flex-direction: column;
 }
+
+.socials_bar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
