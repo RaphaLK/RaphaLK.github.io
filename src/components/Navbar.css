@@ -34,6 +34,7 @@ ul li p {
   font-size: 1.75rem;  
   text-decoration: inherit;
   align-items: center;
+  font-weight: 700;
 
   @apply text-SoftWhite m-2;
 }
