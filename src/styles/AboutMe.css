@@ -21,8 +21,39 @@
 
 .myDescription {
   padding-left: 10%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-right: 5%; 
   font-size: 1.25rem;
+  max-width: 80ch;
   position: relative;
-  max-width: 50ch;
+  z-index: -1;
+  font-weight: 550;
+  line-height: 185%;
+
   @apply text-SoftWhite;
+}
+
+.ImageContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center ;
+  width: 50vw;
+}
+
+.Desc_Contain {
+  justify-content: center;
+  margin-top: 5%;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+  @apply border-solid border-y-4 border-offWhite;
+}
+
+.ImageStyling {
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+
+  @apply border-solid border-4 border-offWhite;
 }
