@@ -1,60 +1,28 @@
-.aboutMeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-inline: auto;
-  width: 60%;
-  height: 100%;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  @apply p-4 mt-6;
-}
-
-
-.decorativePic1 {
+.title {
+  margin-top: 2%;
+  font-size: 1.75rem;
   position: relative;
-  height: 40%;
-  width: 40%;
-  border-radius: 50%;
-  align-self: center;
-
-  @apply mt-5 mb-5 border-8 border-Gray shadow-lg;
+  font-weight: 600;
+  @apply text-SoftWhite;
 }
 
-.imageContainer {
+.Introductions p{
+  margin-top: 2%;
+  font-size: 1.5rem;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  height: 33%;
-  width: 60%; 
+  @apply text-SoftWhite;
 }
 
-.ButtonsList {
+.AboutMe_Screen {
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centers items vertically */
-  @apply w-1/3; /* Adjust width as needed */
-  @apply m-0 p-0; /* Removes default margin and padding */
-}
-
-.ButtonsList li {
-  width: 22%;
-  height: 16%;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-left: 5%;
-  padding-top: 3%;
-
-  @apply rounded-full
+  flex-direction: column;
 }
 
-/*
-.smallImageSnippet1 {
-    max-width: 14ch;
-    position: absolute;
-    top: 90%;
-    left: 10%;
+.myDescription {
+  padding-left: 10%;
+  font-size: 1.25rem;
+  position: relative;
+  max-width: 50ch;
+  @apply text-SoftWhite;
 }
-*/

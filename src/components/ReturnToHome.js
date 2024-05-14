@@ -3,7 +3,7 @@ import "./ReturnToHome.css";
 
 const ReturnToHome = ({backFunction}) => {
   return (
-    <div>
+    <div className="position: absolute">
       <div ontouchstart="" onClick={backFunction}>
         <div class="button">
           <a href="#"> {'< Back'} </a>

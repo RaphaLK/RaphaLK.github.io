@@ -6,14 +6,6 @@ h1 {
   @apply text-SoftWhite
 }
 
-span {
-  font-size: 48px;
-  margin-top: 1%;
-  margin-left: 2%;
-
-  @apply text-SoftWhite
-}
-
 .Typewriter__cursor {
   font-size: 50px;
   line-height: normal; 
@@ -39,4 +31,11 @@ div .homepage_container{
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.front_page_span {
+  font-size: 48px;
+  margin-top: 1%;
+  margin-left: 2%;
+  @apply text-SoftWhite 
 }

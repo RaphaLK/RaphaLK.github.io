@@ -45,7 +45,7 @@ export const HomePage = () => {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("<span> and this is my website.</span>")
+                  .typeString("<span class='front_page_span'> and this is my website.</span>")
                   .pauseFor(5000)
                   .deleteAll()
                   .pauseFor(5000)
