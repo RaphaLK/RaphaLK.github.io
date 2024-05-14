@@ -42,7 +42,7 @@ ul li p {
 ul li p:hover {
   color: wheat;
   transition: ease-in-out 0.4s;
-  
+  cursor: pointer;
 }
 
 @keyframes fade-in {

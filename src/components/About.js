@@ -1,13 +1,14 @@
-
 import React from 'react'
-import About1 from './RA_Position'
-import About2 from './Photography'
+import BackButton from "./ReturnToHome"
 
-const About = () => {
+const About = ({backFunction}) => {
+
   return (
-    <div>
-      <About1/>
-      <About2/>
+    <div className='AboutMe_Screen'>
+      <BackButton
+        backFunction={backFunction}
+      />
+      <p>ABOUT ME!</p>
     </div>
   )
 }

@@ -20,7 +20,7 @@ export const Socials = () => {
             openNewTab={true}
           />
         </li>
-        <li className="hover:bg-Gray active:bg-lighterGray rounded-full transition ease-in-out ml-2">
+        <li className="hover:bg-Gray active:bg-lighterGray rounded-full transition ease-in-out ml-2 ">
             <SocialMediaButtons
               links={["https://www.linkedin.com/in/raphaelkusuma/"]}
               buttonStyle={{
