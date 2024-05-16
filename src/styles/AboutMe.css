@@ -57,3 +57,19 @@
 
   @apply border-solid border-4 border-offWhite;
 }
+
+
+.Co_En_Na_Ph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%; 
+  
+}
+
+.Description2 {
+  font-weight: 550;
+  line-height: 185%;
+  font-size: 1.25rem;
+  @apply text-SoftWhite;
+}

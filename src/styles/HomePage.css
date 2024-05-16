@@ -35,7 +35,6 @@ div .homepage_container{
 
 .front_page_span {
   font-size: 48px;
-  margin-top: 1%;
-  margin-left: 2%;  
-  @apply text-SoftWhite 
+
+  @apply text-SoftWhite
 }

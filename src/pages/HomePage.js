@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import Socials from "../components/Socials";
 import { useState } from "react";
 import About from "../components/About";
+import Projects from "../components/Projects";
+import Resume from "../components/Resume";
 
 export const HomePage = () => {
   const [AboutMe_state, setClicked_AM] = useState(false);
@@ -71,8 +73,15 @@ export const HomePage = () => {
       )}
       {AboutMe_state &&
       <About
-      backFunction={handle_AboutMe}/>
-}
+      backFunction={handle_AboutMe}/> }
+
+      {Projects_state &&
+      <Projects
+      backFunction={handle_Projects}/> }  
+
+      {Resume_state &&
+      <Resume
+      backFunction={handle_Resume}/> }
     </div>
   );
 };

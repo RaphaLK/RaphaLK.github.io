@@ -31,7 +31,12 @@ const About = ({ backFunction }) => {
           <div className="ImageContainer">
             <img src={MyPhoto} className="ImageStyling"/>
           </div>
+          <div className="">
 
+          </div>
+          <div className="Co_En_Na_Ph">
+            <p className="Description2">Coffee Enjoyer & Nature Photographer</p>
+          </div>
         </div>
       </div>
     </div>
