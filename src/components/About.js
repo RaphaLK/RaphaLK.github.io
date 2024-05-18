@@ -3,9 +3,9 @@ import BackButton from "./ReturnToHome";
 import "../styles/AboutMe.css";
 import MyPhoto from "../assets/MyPhoto.jpg";
 
-const About = ({ backFunction }) => {
+const About = ({ backFunction, animations}) => {
   return (
-    <div>
+    <div className={animations}>
       <BackButton backFunction={backFunction} />
       <div className="AboutMe_Screen">
         <p className="title">About Me</p>

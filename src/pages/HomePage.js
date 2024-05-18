@@ -33,55 +33,53 @@ export const HomePage = () => {
 
   return (
     <div className="homepage_container">
-      {!Navbar_Element && (
-        <div>
-          <div className="top_text">
-            <h1>Hi, I'm Raphael</h1>
-          </div>
-          <div className="bottom_text">
-            <Typewriter
-              options={{
-                loop: true,
-                cursor: "_",
-                delay: 50,
-              }}
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("<span class='front_page_span'> and this is my website.</span>")
-                  .pauseFor(5000)
-                  .deleteAll()
-                  .pauseFor(5000)
-                  .start();
-              }}
-            />
-          </div>
+        {!Navbar_Element && (
+          <div  className={Navbar_Element ? "fade-out" : ""}>
+            <div className="top_text">
+              <h1>Hi, I'm Raphael</h1>
+            </div>
+            <div className="bottom_text">
+              <Typewriter
+                options={{
+                  loop: true,
+                  cursor: "_",
+                  delay: 50,
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString(
+                      "<span class='front_page_span'> and this is my website.</span>"
+                    )
+                    .pauseFor(5000)
+                    .deleteAll()
+                    .pauseFor(5000)
+                    .start();
+                }}
+              />
+            </div>
 
-          <div className="navigation_bar">
-            <Navbar 
-              AboutMe_Click={handle_AboutMe}
-              Project_Click={handle_Projects}
-              Resume_Click={handle_Resume} 
-              About_state={AboutMe_state}
-              Project_state={Projects_state}
-              Resume_state={Resume_state}
-            />
+            <div className="navigation_bar">
+              <Navbar
+                AboutMe_Click={handle_AboutMe}
+                Project_Click={handle_Projects}
+                Resume_Click={handle_Resume}
+                About_state={AboutMe_state}
+                Project_state={Projects_state}
+                Resume_state={Resume_state}
+              />
+            </div>
+            <div className="socials_bar">
+              <Socials></Socials>
+            </div>
           </div>
-          <div className="socials_bar">
-            <Socials></Socials>
-          </div>
-        </div>
-      )}
-      {AboutMe_state &&
-      <About
-      backFunction={handle_AboutMe}/> }
+        )}
+        {AboutMe_state && (
+          <About backFunction={handle_AboutMe} animations="slide-in" />
+        )}
 
-      {Projects_state &&
-      <Projects
-      backFunction={handle_Projects}/> }  
+        {Projects_state && <Projects backFunction={handle_Projects} />}
 
-      {Resume_state &&
-      <Resume
-      backFunction={handle_Resume}/> }
+        {Resume_state && <Resume backFunction={handle_Resume} />}
     </div>
   );
 };

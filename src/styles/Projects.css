@@ -18,3 +18,28 @@
   align-items: center;
   flex-direction: column;
 }
+
+.left_page {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.right_page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.project_intro {
+  margin-block: 5%;
+  margin-right: 2%;
+}
+
+.proj_intro_text {
+  line-height: 170%;
+  font-size: 20px;
+  @apply text-SoftWhite
+}
