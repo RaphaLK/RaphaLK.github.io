@@ -2,6 +2,7 @@ import React from "react";
 import BackButton from "./ReturnToHome";
 import "../styles/AboutMe.css";
 import MyPhoto from "../assets/MyPhoto.jpg";
+import Pumpkin from "../assets/Photography.png"
 
 const About = ({ backFunction, animations}) => {
   return (
@@ -31,8 +32,8 @@ const About = ({ backFunction, animations}) => {
           <div className="ImageContainer">
             <img src={MyPhoto} className="ImageStyling"/>
           </div>
-          <div className="">
-
+          <div className="PhotographyContainer">
+            <img src={Pumpkin} className="PhotographyStyle"/>
           </div>
           <div className="Co_En_Na_Ph">
             <p className="Description2">Coffee Enjoyer & Nature Photographer</p>

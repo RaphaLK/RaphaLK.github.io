@@ -58,6 +58,18 @@
   @apply border-solid border-4 border-offWhite;
 }
 
+.PhotographyStyle {
+  width: 50%;
+  border-radius: 10px;
+  @apply border-solid border-4 border-offWhite;
+}
+
+.PhotographyContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 
 .Co_En_Na_Ph {
   display: flex;
