@@ -76,7 +76,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 8%; 
-  
+  flex-direction: column;
 }
 
 .Description2 {
@@ -84,4 +84,17 @@
   line-height: 185%;
   font-size: 1.25rem;
   @apply text-SoftWhite;
+}
+
+.Description3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 185%;
+  max-width: 50ch;
+  justify-content: center;
+  @apply text-SoftWhite;
+}
+
+.Boxer_UltimateFrisee {
+  
 }

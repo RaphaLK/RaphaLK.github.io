@@ -37,8 +37,15 @@ const About = ({ backFunction, animations}) => {
           </div>
           <div className="Co_En_Na_Ph">
             <p className="Description2">Coffee Enjoyer & Nature Photographer</p>
+            <p className="Description3"> I take photos of nature! I find that there's a lot of beauty that we tend to overlook. 
+            I also enjoy the occasional cup of coffee. Growing up in Indonesia, coffee plays a large part in social settings.
+            I've kept that part of my culture with me!</p>
+          </div>
+          <div className="Boxer_UltimateFrisbee">
+            
           </div>
         </div>
+
       </div>
     </div>
   );
