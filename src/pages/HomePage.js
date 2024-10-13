@@ -77,9 +77,9 @@ export const HomePage = () => {
           <About backFunction={handle_AboutMe} animations="slide-in" />
         )}
 
-        {Projects_state && <Projects backFunction={handle_Projects} />}
+        {Projects_state && <Projects backFunction={handle_Projects} animations="slide-in"/>}
 
-        {Resume_state && <Resume backFunction={handle_Resume} />}
+        {Resume_state && <Resume backFunction={handle_Resume} animations="slide-in"/>}
     </div>
   );
 };

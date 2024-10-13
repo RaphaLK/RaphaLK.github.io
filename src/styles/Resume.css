@@ -6,11 +6,15 @@
   @apply text-SoftWhite;
 }
 
-.Introductions p{
+.Introductions_Resume p{
   margin-top: 2%;
   font-size: 1.5rem;
   position: relative;
   @apply text-SoftWhite;
+}
+
+.Introductions_Resume {
+  margin-bottom: 1.5rem;
 }
 
 .Resume_Screen {

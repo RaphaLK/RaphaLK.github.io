@@ -37,7 +37,7 @@
 .ImageContainer {
   align-items: center;
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   width: 50vw;
 }
 
@@ -73,12 +73,15 @@
 
 .Co_En_Na_Ph {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 8%; 
   flex-direction: column;
 }
 
+.DescriptionHeader_About {
+  border-bottom: 1px solid;
+  border-color: aliceblue;
+  width: 70%
+}
 .Description2 {
   font-weight: 550;
   line-height: 185%;
@@ -95,6 +98,6 @@
   @apply text-SoftWhite;
 }
 
-.Boxer_UltimateFrisee {
-  
+.Boxer_UltimateFrisbee {
+
 }
